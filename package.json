@@ -1,6 +1,6 @@
 {
   "name": "select-declarations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Select contents of rule declarations via CSS selectors.",
   "main": "index.js",
   "scripts": {
