@@ -1,1 +1,1 @@
-console.log(JSON.stringify(require('./index.js')(`.btn {color: red;} a {color: green;} .btn:hover {color: blue;}`, ['.btn'])) === JSON.stringify([ { prop: 'color', value: 'red' } ]))
+console.log(JSON.stringify(require('./index.js')(`.btn {color: red!important;} a {color: green;} .btn:hover {color: blue;}`, ['.btn'])) === JSON.stringify([ { prop: 'color', value: 'red', 'important': true } ]))

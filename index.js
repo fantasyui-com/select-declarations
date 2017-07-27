@@ -25,7 +25,9 @@ module.exports = function(css, incomingSelector){
         // put the rule nodes in response array that will be sent to the user
         rule.nodes.forEach(node => {
           // walk each of the rule nodes, and transport out the prop/value
-          response.push({prop:node.prop, value:node.value})
+          const out = {prop:node.prop, value:node.value};
+          if (node.important) out.important = true;
+          response.push(out)
         })
       }
     })
