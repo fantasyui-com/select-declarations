@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/fantasyui-com/select-declarations#readme",
   "dependencies": {
-    "postcss": "^6.0.8"
+    "postcss": "^8.4.9"
   }
 }
